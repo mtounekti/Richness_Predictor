@@ -68,7 +68,7 @@ def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> RandomForestClassi
     model = RandomForestClassifier(
         n_estimators=500,      
         max_depth=None,
-        n_jobs=-1,            
+        n_jobs=-1,    
         random_state=42
     )
     model.fit(X_train, y_train)

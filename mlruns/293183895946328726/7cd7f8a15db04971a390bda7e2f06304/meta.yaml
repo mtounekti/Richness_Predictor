@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mtounekti/projects/Richness_Predictor/mlruns/293183895946328726/7cd7f8a15db04971a390bda7e2f06304/artifacts
+end_time: 1780995696756
+entry_point_name: ''
+experiment_id: '293183895946328726'
+lifecycle_stage: active
+run_id: 7cd7f8a15db04971a390bda7e2f06304
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780995694830
+status: 3
+tags: []
+user_id: mtounekti

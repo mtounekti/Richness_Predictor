@@ -1,0 +1,10 @@
+artifact_location: file:///Users/mtounekti/projects/Richness_Predictor/mlruns/293183895946328726/models/m-6640db21f7ce45e098b550a222f2b264/artifacts
+creation_timestamp: 1780995694863
+experiment_id: '293183895946328726'
+last_updated_timestamp: 1780995696753
+model_id: m-6640db21f7ce45e098b550a222f2b264
+model_type: null
+name: pipeline
+source_run_id: 7cd7f8a15db04971a390bda7e2f06304
+status: 2
+status_message: null

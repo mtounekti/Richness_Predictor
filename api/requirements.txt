@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+prometheus-client
+loguru
+joblib
+scikit-learn==1.6.1
+lightgbm
+numpy
+pandas
+psutil
+mlflow
