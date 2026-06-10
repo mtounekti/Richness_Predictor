@@ -385,3 +385,8 @@ Fichier `.evn` (à la racine du projet) :
 | loguru           | Journalisation structurée             |
 | joblib           | Sérialisation des modèles             |
 | psutil           | Mesure de la consommation RAM         |
+
+
+
+<img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/d73cddcc-664a-4778-b0e8-bc98cb6aa801" />
+
