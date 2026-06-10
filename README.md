@@ -387,6 +387,22 @@ Fichier `.evn` (à la racine du projet) :
 | psutil           | Mesure de la consommation RAM         |
 
 
+## Résultats MLflow — Comparaison des architectures
+
+Les trois modèles ont été entraînés et comparés via MLflow. Les résultats sont accessibles sur http://localhost:5000 après `docker compose up`.
+
+| Modèle | Accuracy | AUC-ROC | F1-macro | Temps train | RAM |
+|---|---|---|---|---|---|
+| LightGBM | **86.83%** | **92.23%** | **81%** | 1.25s | 15.4MB |
+| RandomForest-100 | 85.80% | - | - | 0.23s | 56.9MB |
+| LogisticRegression | 85.26% | - | - | 1.38s | - |
+
+**LightGBM a été retenu** comme meilleur compromis performance / consommation ressources :
+- Meilleure accuracy et AUC-ROC
+- 10x moins de RAM que le RandomForest original (500MB → 15.4MB)
+- Temps d'entraînement court (1.25s)
+
+Le modèle original (RandomForest 500 arbres, max_depth=None) consommait ~500MB de RAM pour ~86% d'accuracy — LightGBM atteint 86.83% avec seulement 15.4MB.
 
 <img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/d73cddcc-664a-4778-b0e8-bc98cb6aa801" />
 
